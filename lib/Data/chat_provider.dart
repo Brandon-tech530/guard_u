@@ -10,7 +10,7 @@ class ChatProvider extends ChangeNotifier {
   final Box<List> _chatBox = Hive.box<List>('chat_history');
   final GenerativeModel _model = GenerativeModel(
     model: 'gemini-pro',
-    apiKey: 'AIzaSyC3GaXTsNQmKnQElAwUDe7MFdrZ_PGJu6k', // Replace with your actual API key
+    apiKey: '12345678899998764785', // Replace with your actual API key
   );
 
   List<ChatMessage> get messages => _messages;
